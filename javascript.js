@@ -12,19 +12,4 @@ $(document).ready(function(){
             $('.scroll-up-btn').removeClass("show");
         }
     })
-
-    // slide-up script
-    $('.scroll-up-btn').click(function(){
-        $('html').animate({scrolltop:0});
-    });
-
-    // toggle menu/navbar script
-    $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
-    });
-
-    //owl carousel script
-    $('.carousel').owlCarousel({
-
-    }); 
 }) ;
