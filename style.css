@@ -360,13 +360,13 @@ section .title::after{
     background: royalblue;
 }
 .skills .skills-content .right .html::before{
-    width: 60%;
+    width: 80%;
 }
 .skills .skills-content .right .css::before{
-    width: 50%;
+    width: 60%;
 }
 .skills .skills-content .right .js::before{
-    width: 40%;
+    width: 50%;
 }
 .skills .skills-content .right .py::before{
     width: 80%;
