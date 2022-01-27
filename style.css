@@ -63,9 +63,6 @@ html{
     transition: color 0.3s ease;
 }
 
-.navbar .menu li a:hover{
-    color:#111;
-}
 
 .navbar .sticky .menu li a:hover{
     color: #fff;
@@ -290,7 +287,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 1px 0 7px 0;
+    color: aliceblue;
 }
+
 .card{
     display: inline-block;
     padding-left: 20px;
@@ -662,6 +661,7 @@ footer span a:hover{
         font-size: 27px;
     }
 }
+
 
 
 
