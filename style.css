@@ -17,22 +17,23 @@ html{
 }
 
 /*  navbar styling */
-.navbar{
+.navbar:hover{
     position: fixed;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    background: royalblue;
+    background: transparent;    
+/*  background: rgb(29, 85, 205); */    
     font-family:"ubuntu",sans-serif;
     transition: all 0.3s ease;
 }
 .navbar .sticky{
-    padding: 15px 0;
+    padding: 10px 0;
     background: rgb(93, 118, 194);
 }
 
 .navbar .logo a{
-    color: #fff;
+    color: royalblue;  /* cheng the color of port */
     font-size: 35px;
     font-weight: 600;
 }
@@ -42,7 +43,7 @@ html{
 }
 
 .navbar .logo a span{
-    color: #111;
+    color: royalblue; /* chg the color of folio */
 }
 .navbar .max-width{
     display: flex;
@@ -99,7 +100,7 @@ html{
 /* home section styling */
 .home{
     display: flex;
-    background: url("pictures/wp2856136.gif")no-repeat center;
+    background: url("pictures/wallpapertip_hd-wallpapers-for-pc_38019.jpg")no-repeat center;
     height: 100vh;
     background-size: cover;
     background-attachment: fixed;
@@ -298,6 +299,9 @@ section .title::after{
     text-align: center;
     border-bottom: solid 2px black;
 }
+/* my project  */
+
+
      /*   Skills Section Strart     */
 .skills .title::after{
     content: "What i know";
@@ -891,8 +895,60 @@ footer span a:hover{
     }
 }
 
+/* prooject */
+.Services-p .teams-p{
+    color: #fff;
+    background: #111;
+    padding-bottom: 70px;
+}
+.Services-p .title-p::before
+.teams-p .title-p .carousel-p::before{
+    background: rgb(255, 255, 255);
+}
+.Services-p .title-p::after
+.teams-p .title-p .carousel-p::after{
+    background: #00203fff;
+    content: "what i provide";
+}
+.Services-p .Serv-content-p .card-p{
+    width: calc(33% - 20px);
+    background: #00203fff; /* for chengung the clr of box */
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+.Services-p .Serv-content-p .card-p:hover{
+    background-color: skyblue;
+}
+.Services-p .Serv-content-p .card-p .box-p{
+    transition: all 0.3s ease;
+}
+.Services-p .Serv-content-p .card-p:hover .box{
+    transform: scale(1.05);
+}
+.Services-p .Serv-content-p .card-p i{
+    font-size: 50px;
+    color: #A8D5BAFF;
+    transition: color 0.3s ease
 
+}
+.Services-p .Serv-content-p .card-p:hover i{
+    color:palegoldenrod;
+}
+.Services-p .Serv-content-p .card-p .text-p{
+    font-size: 25px;
+    font-weight: 500;
+    margin: 1px 0 7px 0;
+    color: peru;
+}
 
-
-
-
+.card-p{
+    display: inline-block;
+    padding-left: 20px;
+}
+.title1{
+    text-align: center;
+    border-bottom: solid 2px black;
+}
